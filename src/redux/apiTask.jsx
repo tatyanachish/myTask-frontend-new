@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 const config = { 
-    develop: 'http://localhost:7000/'
+    develop: 'https://mytask-backend-x12v.onrender.com/'
 }
 
 const TASK = 'Task'
