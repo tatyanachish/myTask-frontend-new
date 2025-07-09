@@ -1,0 +1,88 @@
+body {
+  background: url('clocks.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+} 
+.headliner {
+  margin: auto;
+  background-color: #FCFAEE;
+  margin-top: 10px;
+  width: 300px;
+}
+h1 {
+  color: #c46708;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  letter-spacing: 2px;
+  margin-left: 10px;
+}
+.card{
+  display:flex;
+  flex-direction: column;
+  background-color: #FCFAEE;
+  margin: auto;
+  width: 300px;
+  height: 180px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.cardList {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+.cardWapper{
+  flex: 1 1 calc(25% - 32px); 
+  max-width: calc(25% - 32px);
+  min-width: 280px; 
+  box-sizing: border-box;
+}
+
+input{
+  background-color: #FCFAEE;
+  width: 250px;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  margin-top: 10px;
+  border: none;
+  padding: 5px;
+  
+}
+.submit{
+  background-color: #FCFAEE;
+  color:#c46708;
+  border: none; 
+  border-radius: 5px; 
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+.submit:hover{
+  cursor: pointer;
+}
+.icons-row {
+  display: flex;
+  gap: 15px;       
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  justify-content: flex-end; 
+}
+
+.icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  color: #c46708; 
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #a05200; 
+}
