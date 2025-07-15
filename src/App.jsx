@@ -23,7 +23,18 @@ function App() {
     }
   }, [data])
 
-  if (isLoading) return <div>Loading...</div>;
+  // if (isLoading) return <div>Loading...</div>;
+  if (isLoading || !data) {
+  return (
+    <div className="loading-wrapper">
+      <div className="loading-spinner"></div>
+      <div className="loading-text">
+        ☕ Warming up the server...<br />
+        Please wait a moment.
+      </div>
+    </div>
+  );
+}
 
 
 
